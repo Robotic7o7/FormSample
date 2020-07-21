@@ -1,0 +1,63 @@
+html {
+  background: url(./signup-bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.card {
+  background-color: rgb(233, 230, 230);
+  width: 660px;
+  height: 350px;
+  position: absolute;
+  margin-top: 100px;
+  transform: translateX(50%);
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.heading {
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  font-size: 20px;
+  font-weight: 900;
+  background-color: inherit;
+}
+
+.inp {
+  height: 40px;
+  width: 40%;
+  border-radius: 4px;
+  border: 1px solid #ababab;
+}
+
+.inp:hover {
+  border: 1px solid #000;
+}
+
+.branch {
+  height: 40px;
+  width: 20%;
+  background-color: #eeecec;
+  border-radius: 4px;
+}
+
+.section {
+  height: 40px;
+  width: 20%;
+  background-color: #eeecec;
+  border-radius: 4px;
+}
+
+.but {
+  height: 50px;
+  width: 40%;
+  background: linear-gradient(90deg, #86a5e7, #79e5d6);
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}

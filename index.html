@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="card">
+      <p align="center" class="heading">RSM FORM</p>
+      <br />
+      <div class="nameSec">
+        <input
+          type="text"
+          class="inp"
+          placeholder="First Name"
+          required="true"
+        />
+        &nbsp;
+        <span
+          ><input
+            type="text"
+            class="inp"
+            placeholder="Last Name"
+            required="true"
+        /></span>
+      </div>
+      <br />
+      <div class="nameSec">
+        <input
+          type="text"
+          class="inp"
+          placeholder="Roll Number"
+          required="true"
+        />
+        &nbsp;
+        <span
+          ><input
+            type="email"
+            class="inp"
+            placeholder="E - Mail"
+            required="true"
+        /></span>
+      </div>
+      <br />
+      <div class="nameSec">
+        <select name="branch" class="branch">
+          <option value="valor1">CSE</option>
+          <option value="valor2">ECE</option>
+          <option value="valor3">EEE</option>
+          <option value="valor4">CIVIL</option>
+          <option value="valor5" selected>Branch</option>
+        </select>
+        &nbsp;
+        <span>
+          <select name="section" class="section">
+            <option value="valor1">A</option>
+            <option value="valor2" selected>Section</option>
+            <option value="valor3">Valor 3</option>
+          </select></span
+        >
+      </div>
+      <br />
+      <button class="but" id="next">NEXT</button>
+    </div>
+  </body>
+</html>
